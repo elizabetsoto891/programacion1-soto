@@ -1,17 +1,14 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AlumnoComponent } from './alumno/alumno.component';
-import { ContactoComponent } from './contacto/contacto.component';
+import { CiudadComponent } from './ciudad/ciudad.component';
+import { HotelesComponent } from './hoteles/hoteles.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { PadresComponent } from './padres/padres.component';
 
 const routes: Routes = [
   {path:'', component: InicioComponent},
 
-  {path:'alumno', component: AlumnoComponent},
-  {path:'inicio', component: InicioComponent},
-  {path:'contacto', component: ContactoComponent},
-  {path:'padres', component: PadresComponent}
+  {path:'ciudad', component: CiudadComponent},
+  {path:'hoteles', component: HotelesComponent},
 ];
 
 @NgModule({
