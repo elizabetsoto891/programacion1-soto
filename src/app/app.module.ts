@@ -7,6 +7,7 @@ import { MenuComponent } from './menu/menu.component';
 import { CiudadComponent } from './ciudad/ciudad.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { HotelesComponent } from './hoteles/hoteles.component';
+import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HotelesComponent } from './hoteles/hoteles.component';
     MenuComponent,
     CiudadComponent,
     InicioComponent,
-    HotelesComponent
+    HotelesComponent,
+    RestaurantesComponent
   ],
   imports: [
     BrowserModule,
