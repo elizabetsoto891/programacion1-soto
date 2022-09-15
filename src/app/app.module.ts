@@ -8,6 +8,7 @@ import { CiudadComponent } from './ciudad/ciudad.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { HotelesComponent } from './hoteles/hoteles.component';
 import { RestaurantesComponent } from './restaurantes/restaurantes.component';
+import { AlquileresDeAutosComponent } from './alquileres-de-autos/alquileres-de-autos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RestaurantesComponent } from './restaurantes/restaurantes.component';
     CiudadComponent,
     InicioComponent,
     HotelesComponent,
-    RestaurantesComponent
+    RestaurantesComponent,
+    AlquileresDeAutosComponent
   ],
   imports: [
     BrowserModule,
