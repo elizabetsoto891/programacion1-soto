@@ -1,14 +1,21 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CiudadComponent } from './ciudad/ciudad.component';
-import { HotelesComponent } from './hoteles/hoteles.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { ProvinciaComponent } from './provincia/provincia.component';
+import { HotelesComponent } from './hoteles/hoteles.component';
+import { RestaurantesComponent } from './restaurantes/restaurantes.component';
+import { AlquileresDeAutosComponent } from './alquileres-de-autos/alquileres-de-autos.component';
+import { SupermercadosComponent } from './supermercados/supermercados.component';
 
 const routes: Routes = [
   {path:'', component: InicioComponent},
 
-  {path:'ciudad', component: CiudadComponent},
+  {path:'Provincias', component: ProvinciaComponent},
   {path:'hoteles', component: HotelesComponent},
+  {path:'restaurantes', component: RestaurantesComponent},
+  {path:'alquileres_de_autos',component: AlquileresDeAutosComponent},
+  {path:'supermercados', component: SupermercadosComponent},
+  
 ];
 
 @NgModule({

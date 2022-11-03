@@ -3,8 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-restaurantes',
   templateUrl: './restaurantes.component.html',
-  styles: [
-  ]
+  styleUrls: ['./restaurantes.component.css']
 })
 export class RestaurantesComponent implements OnInit {
 
